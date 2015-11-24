@@ -1,2 +1,2 @@
 # 3degreesapp.github.io
-Static website
+Temporary static website for 3Degrees.
