@@ -1,0 +1,186 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+.brand-logo img {
+  height: 64px;
+  width: 64px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ffffff;
+}
+
+.connect img.icon {
+  height: 32px;
+}
+
+img.with-border {
+  border: 1px solid #573192;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.purple {
+  background-color: #573192 !important;
+}
+
+.purple-text {
+  color: #573192 !important;
+}
+
+.purple.lighten-5 {
+  background-color: #b089ed !important;
+}
+
+.purple-text.text-lighten-5 {
+  color: #b089ed !important;
+}
+
+.purple.lighten-4 {
+  background-color: #9c75d8 !important;
+}
+
+.purple-text.text-lighten-4 {
+  color: #9c75d8 !important;
+}
+
+.purple.lighten-3 {
+  background-color: #8962c4 !important;
+}
+
+.purple-text.text-lighten-3 {
+  color: #8962c4 !important;
+}
+
+.purple.lighten-2 {
+  background-color: #7750b2 !important;
+}
+
+.purple-text.text-lighten-2 {
+  color: #7750b2 !important;
+}
+
+.purple.lighten-1 {
+  background-color: #6640a0 !important;
+}
+
+.purple-text.text-lighten-1 {
+  color: #6640a0 !important;
+}
+
+.purple.darken-1 {
+  background-color: #412172 !important;
+}
+
+.purple-text.text-darken-1 {
+  color: #412172 !important;
+}
+
+.purple.darken-2 {
+  background-color: #2f1556 !important;
+}
+
+.purple-text.text-darken-2 {
+  color: #2f1556 !important;
+}
+
+.purple.darken-3 {
+  background-color: #1e0c3a !important;
+}
+
+.purple-text.text-darken-3 {
+  color: #1e0c3a !important;
+}
+
+.purple.darken-4 {
+  background-color: #110623 !important;
+}
+
+.purple-text.text-darken-4 {
+  color: #110623 !important;
+}
+
+.purple.accent-1 {
+  background-color: #ea80fc !important;
+}
+
+.purple-text.text-accent-1 {
+  color: #ea80fc !important;
+}
+
+.purple.accent-2 {
+  background-color: #e040fb !important;
+}
+
+.purple-text.text-accent-2 {
+  color: #e040fb !important;
+}
+
+.purple.accent-3 {
+  background-color: #d500f9 !important;
+}
+
+.purple-text.text-accent-3 {
+  color: #d500f9 !important;
+}
+
+.purple.accent-4 {
+  background-color: #aa00ff !important;
+}
+
+.purple-text.text-accent-4 {
+  color: #aa00ff !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.row .col.m4 img {
+  width: 100%;
+}
