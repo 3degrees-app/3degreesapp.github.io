@@ -24,7 +24,13 @@ p {
   color: #ffffff;
 }
 
+.connect div {
+  display: inline-block;
+  margin: 5px 0px 15px 5px;
+}
+
 .connect img.icon {
+  float: left;
   height: 32px;
 }
 
