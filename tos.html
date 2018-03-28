@@ -2,9 +2,29 @@
 <head>
   <title>3degrees Privacy Policy</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 </head>
 <body>
-  <div id="main">
+  <nav class="purple darken-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="brand-logo">
+        <img src="images/logo.png" alt="3degrees" />
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="signup.html">Download App</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="signup.html">Download App</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="main">
 # 3degrees Terms of Use Agreement
 _Last revised on June 20, 2017_
 
@@ -207,6 +227,7 @@ The following provisions are added to this Agreement for subscribers residing in
 In the event that you die before the end of your subscription period, your estate shall be entitled to a refund of that portion of any payment you had made for your subscription which is allocable to the period after your death. In the event that you become disabled (such that you are unable to use the services of 3degrees) before the end of your subscription period, you shall be entitled to a refund of that portion of any payment you had made for your subscription which is allocable to the period after your disability by providing the company notice at the same address as listed above.*
 
 Please Contact Us with any questions regarding this agreement. 3degrees is a trademark of Sidestep, Inc.
+    </div>
   </div>
   <script>
     var converter = new showdown.Converter(),
